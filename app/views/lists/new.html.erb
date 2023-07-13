@@ -3,9 +3,9 @@
           <h3>New list</h3>
           <%= simple_form_for @list do |f| %>
             <%= f.input :name, placeholder: 'Comedy' %>
-            <%= f.submit class: 'btn btn-primary' %>
+            <%= f.submit class: 'btn-outline-success' %>
           <% end %>
     </div>
-  <%= link_to "return home", lists_index_path, class: "btn btn-dark" %>
+  <%= link_to "Go back", lists_index_path, class: "btn btn-outline-info" %>
 
 </div>

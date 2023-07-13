@@ -21,4 +21,3 @@ class BookmarksController < ApplicationController
     params.require(:review).permit(:content)
   end
 end
-end
